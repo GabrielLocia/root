@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #B9BF04;
+}
+
+header img {
+  
+    width: 120px;
+    margin: 10px;
+  
+}
+
+.menu{
+    font-size: 35px;
+    height: 85px;
+    display: flex;
+    margin-right: 20px;
+    color: white;
+}
+
+.menu span{
+    margin-top: 35px;
+}
