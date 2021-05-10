@@ -7,33 +7,75 @@
 body{
     display: flex;
     height: 100vh;
+    flex-direction: column;
+    background-color: #ecece4;
 }
 
-
 header{
+    width: 100%;
+    background-color: #B9BF04;
+    height: 120px;
+}
+
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 120px;
-    background-color: #B9BF04;
+    padding: 5px 30px;
 }
 
 header img {
   
     width: 120px;
-    margin: 10px;
+    
   
 }
 
 .menu{
-    font-size: 35px;
+
+    padding:4px;
+    margin-top: 15px;
+    font-size: 45px;
     height: 85px;
     display: flex;
-    margin-right: 20px;
+    align-items: center;
     color: white;
 }
 
 .menu span{
-    margin-top: 35px;
+    transform: rotate(180deg);
+
+    
+}
+
+.container .imgHeder{
+    width: 100%;
+    border-radius: 0 0 15px 15px;  
+    opacity: .9;  
+}
+
+main .container{
+    padding: 0;
+    position: relative;
+}
+
+#Encabezado{
+    position: absolute;
+    
+    top: 40px;
+    left: 80px;
+    z-index: 1;
+}
+
+#Encabezado h1{
+    color: white;
+}
+
+.glass{
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.424);
 }
