@@ -10,8 +10,9 @@ body{
     display: flex;
     height: 100vh;
     flex-direction: column;
-    background-color: #ecece4;
+    background-color: #F2B279;
     font-family: 'Fira Sans', sans-serif;
+
 }
 
 header{
@@ -23,7 +24,7 @@ header{
 
 
 
-.container{
+.contenedor{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -31,11 +32,16 @@ header{
 }
 
 
-.container .imgHeder{
+.contenedor .imgHeder{
     width: 100%;
 }
 
-main .container{
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main .contenedor{
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -43,11 +49,11 @@ main .container{
   
 }
 
-main .container a{
+main .contenedor a{
     position: absolute;
-    border: 1px solid darkcyan;
+   
     z-index: 1;
-    background-color: #FF0026;
+    background-color: #BF1506;
     color: #fff;
     border: none;
     text-decoration: none;
@@ -63,7 +69,7 @@ main .container a{
     left: 36%;
     
 }
-main .container a:hover{
+main .contenedor a:hover{
     background: #ff002680;
 }
 
@@ -85,3 +91,34 @@ main .container a:hover{
     height: 100%;
     background-color: rgba(32, 31, 31, 0.438);
 }
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.hogar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2px 0;
+
+    border-radius: 12px;
+    width: 98%;
+    height: 350px;
+}
+
+.hogar h1{
+    margin-left: 20%;
+    font-size: 2rem;
+    width: 200px;
+}
+
+.hogar img{
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px 50px;
+}
+
+
