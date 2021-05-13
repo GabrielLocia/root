@@ -23,7 +23,7 @@ header{
 
 
 
-.container{
+.contenedor{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -31,11 +31,16 @@ header{
 }
 
 
-.container .imgHeder{
+.contenedor .imgHeder{
     width: 100%;
 }
 
-main .container{
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main .contenedor{
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -43,11 +48,11 @@ main .container{
   
 }
 
-main .container a{
+main .contenedor a{
     position: absolute;
-    border: 1px solid darkcyan;
+   
     z-index: 1;
-    background-color: #FF0026;
+    background-color: #BF1506;
     color: #fff;
     border: none;
     text-decoration: none;
@@ -63,7 +68,7 @@ main .container a{
     left: 36%;
     
 }
-main .container a:hover{
+main .contenedor a:hover{
     background: #ff002680;
 }
 
@@ -84,4 +89,10 @@ main .container a:hover{
     width: 100%;
     height: 100%;
     background-color: rgba(32, 31, 31, 0.438);
+}
+
+.hogar{
+    background-color: #FF0026;
+    width: 100%;
+    height: 280px;
 }
