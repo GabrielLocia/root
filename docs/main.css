@@ -16,10 +16,14 @@ body{
 }
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #B9BF04;
     height: 50px;
     display: flex;
+    z-index: 100;
 }
 
 
@@ -37,6 +41,7 @@ header{
 }
 
 main{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -124,7 +129,7 @@ section{
 
 .hogar p{
     padding: 10px 0;
-    width: 250px;
+    width: 280px;
     font-size: 1.5rem;
 }
 
