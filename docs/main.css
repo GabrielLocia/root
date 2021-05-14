@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Work+Sans:wght@200&display=swap');
 @import url(menu.css);
+
+:root{
+    --color-primario: #F2B279;
+    --fondo-verde: #B9BF04;
+    --color-naranja: #F25C05;
+    --color-cafe: #592202;
+    --color-rojo: #BF1506;
+    --rojo-oscuro: #ac1406;
+    --fondo: #f1efefed;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
 body{
     display: flex;
     height: 100vh;
     flex-direction: column;
-    background-color: #F2B279;
+    background-color: var(--color-primario);
     font-family: 'Fira Sans', sans-serif;
 
 }
@@ -20,7 +33,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #B9BF04;
+    background-color: var(--fondo-verde);
     height: 50px;
     display: flex;
     z-index: 100;
@@ -57,7 +70,7 @@ main .contenedor{
 main .contenedor a{
     position: absolute;
     z-index: 1;
-    background-color: #BF1506;
+    background-color: var(--color-rojo);
     color: #fff;
     border: none;
     text-decoration: none;
@@ -74,7 +87,7 @@ main .contenedor a{
     
 }
 main .contenedor a:hover{
-    background: #ff002680;
+    background: var(--rojo-oscuro);
 }
 
 #Encabezado{
@@ -106,17 +119,19 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 30px 0;
-    border: 1px solid darkcyan;
-    border-radius: 12px;
+    margin: 10px 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(80px);
+    border:rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
     width: 98%;
     height: 550px;
 }
 
 .hogar h1{
-    
     font-size: 2rem;
     width: 250px;
+
 }
 
 .hogar img{
@@ -129,7 +144,7 @@ section{
 .hogar p{
     padding: 10px 0;
     width: 280px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 
