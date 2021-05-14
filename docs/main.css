@@ -119,11 +119,11 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10px 5px;
-    background-color: rgba(255, 255, 255, 0.157);
-    backdrop-filter: blur(80px);
+    margin: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(20px);
     border:rgba(255, 255, 255, 0.8);
-    border-radius: 12px;
+    border-radius: 8px;
     width: 98%;
     height: 550px;
 }
@@ -136,14 +136,14 @@ section{
 
 .hogar img{
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 90%;
     margin: 10px 0px;
 }
 
 .hogar p{
     padding: 10px 0;
-    width: 280px;
+    width: 310px;
     font-size: 1.3rem;
 }
 
