@@ -120,10 +120,10 @@ section{
     align-items: center;
     text-align: center;
     margin: 10px 5px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.157);
     backdrop-filter: blur(80px);
     border:rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
+    border-radius: 12px;
     width: 98%;
     height: 550px;
 }
