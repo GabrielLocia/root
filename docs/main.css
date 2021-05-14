@@ -56,18 +56,17 @@ main .contenedor{
 
 main .contenedor a{
     position: absolute;
-   
     z-index: 1;
     background-color: #BF1506;
     color: #fff;
     border: none;
     text-decoration: none;
     text-align: center;
-    border-radius: 10px;
-    padding: 5px 16px;
-    width: 90px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    min-width: 90px;
     margin: 6px;
-    height: 16%;
+    height: 50px;
     font-family:   sans-serif;
     font-size: 1.5rem;
     top: 42%;
@@ -108,10 +107,10 @@ section{
     align-items: center;
     text-align: center;
     margin: 30px 0;
-
+    border: 1px solid darkcyan;
     border-radius: 12px;
     width: 98%;
-    height: 580px;
+    height: 550px;
 }
 
 .hogar h1{
@@ -123,7 +122,7 @@ section{
 .hogar img{
     border: none;
     border-radius: 10px;
-    width: 98%;
+    width: 90%;
     margin: 10px 0px;
 }
 
