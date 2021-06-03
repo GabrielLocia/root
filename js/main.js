@@ -17,7 +17,7 @@ function timeOut(num) {
     return new Promise(resolve => {
         setTimeout(() => {
             resolve(cambiofireplace(num));
-        }, 150);
+        }, 120);
     });
 }
 
