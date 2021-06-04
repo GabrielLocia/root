@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Work+Sans:wght@200&display=swap');
 @import 'components/menu';
+@import 'components/banner';
 
 $color-primario: #f2b279;
 $fondo-verde: #b9bf04;
@@ -30,109 +31,67 @@ header {
   width: 100%;
   background-color: $fondo-verde;
   height: 50px;
-  display: flex;
   z-index: 100;
+
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 100px;
+    }
+  }
 }
 
 .contenedor {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0px 30px;
-
-  &.imgHeder {
-    width: 100%;
-  }
+  width: 98%;
+  margin: auto;
+  // border: 1px solid blueviolet;
 }
 
 main {
   margin-top: 50px;
-  display: flex;
-  flex-direction: column;
 
+  section {
+    width: 100%;
+    margin-bottom: 25px;
+  
+  }
+
+}
+
+
+
+#hogar {
+ 
   .contenedor {
     display: flex;
-    flex-direction: column;
-    padding: 0;
-    position: relative;
-
-    a {
-        position: absolute;
-        z-index: 1;
-        background-color: $color-rojo;
-        color: #fff;
-        border: none;
-        text-decoration: none;
-        text-align: center;
-        border-radius: 8px;
-        padding: 10px 16px;
-        min-width: 90px;
-        margin: 6px;
-        height: 50px;
-        font-family: sans-serif;
-        font-size: 1.5rem;
-        top: 42%;
-        left: 36%;
-      }
-
-    a:hover {
-    background: $rojo-oscuro;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.219);
+    backdrop-filter: blur(20px);
+    border: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 550px;
+    h1 {
+      font-size: 2rem;
+      width: 250px;
+      max-width: 250px;
+      text-align: center;
+      margin:  15px 0 15px 0;
     }
-}
-}
 
-#Encabezado {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  z-index: 1;
+    img {
+      border: none;
+      border-radius: 5px;
+      width: 90%;
+    }
 
-  h1 {
-    color: white;
+    p {
+      width: 310px;
+      max-width: 250px;
+      font-size: 1.3rem;
+      text-align: center;
+    }
   }
-}
-
-.glass {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(32, 31, 31, 0.438);
-}
-
-section {
-  display: flex;
-  justify-content: center;
-}
-.hogar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 10px 20px;
-  background-color: rgba(255, 255, 255, 0.219);
-  backdrop-filter: blur(20px);
-  border: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-  width: 98%;
-  height: 550px;
-
-  h1 {
-    font-size: 2rem;
-    width: 250px;
-  }
-
-  img {
-    border: none;
-    border-radius: 5px;
-    width: 90%;
-    margin: 10px 0px;
-  }
-  
-  p {
-    padding: 10px 0;
-    width: 310px;
-    font-size: 1.3rem;
-  }
-  
 }

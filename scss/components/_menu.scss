@@ -14,7 +14,6 @@
 
 #menu-bar {
   display: none;
-  
   &:checked ~ .menu-nav {
     transform: translateX(0%);
     z-index: 3;
